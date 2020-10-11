@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body{
+        padding: 0 0.5rem;
+    }
+}
+
+.container{
+    padding: 0 1rem;
+    margin-top: 1rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.active{
+    border-bottom: 2px solid white;
+    color: #ffffff !important;
+}
+
+.timeRanges{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.timeRanges h5{
+    margin: 0 1rem;
+    color: #9b9b9b;
+    transition: 0.5s;
+    font-size: 12pt;
+}
+
+.timeRanges h5:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.albumCover{
+    width: 50px;
+    height: 50px;
+}
+
+.track{
+    color: white;
+}
+
+.track:hover .trackInfo h5{
+    text-decoration: underline;
+}
+
+.topTracks{
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.trackImage{
+    margin-right: 2rem;
+}
+
+.albumDetails{
+    display: flex;
+    font-size: 10pt;
+    color: #9b9b9b !important;
+    text-overflow: ellipsis;
+}
+
+.albumDetails p{
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+}
+
+.trackInfo h5{
+    font-size: 13pt;
+    font-weight: 500;
+}
+
+.trackData{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duration{
+    color: #9b9b9b;
+    font-size: 9pt;
+    font-weight: bold;
+}

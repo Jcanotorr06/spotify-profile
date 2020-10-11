@@ -1,0 +1,95 @@
+
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+
+    .header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .body{
+        padding: 0 0.5rem;
+    }
+
+    .artistImage{
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .timeRanges{
+        margin: 3rem 0; 
+        width: 100%;
+    }
+}
+
+.container{
+    padding: 0 1rem;
+    margin-top: 1rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.active{
+    border-bottom: 2px solid white;
+    color: #ffffff !important;
+}
+
+.timeRanges{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.timeRanges h5{
+    margin: 0 1rem;
+    color: #9b9b9b;
+    transition: 0.5s;
+    font-size: 12pt;
+}
+
+.timeRanges h5:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.artists{
+    box-sizing: content-box;
+}
+
+.Aartist{
+    text-align: center;
+    overflow-wrap: normal;
+    color: white;
+}
+
+.Aartist:hover .artistImage{
+    transform: scale(1.1);
+}
+
+.artistImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin: 0.5rem 0;
+}
+
