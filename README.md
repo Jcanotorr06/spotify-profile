@@ -8,4 +8,6 @@ This project was created using the [spotify Web API](https://developer.spotify.c
 4. Run `npm start`.
 5. Enjoy
 
+## [Live Demo](https://spotifyprofile-react.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
